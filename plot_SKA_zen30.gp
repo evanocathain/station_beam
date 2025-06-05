@@ -34,6 +34,7 @@ replot "LST_20_zen_30.0_I.txt" u 1:(512.0*$2) wi li notitle
 replot "LST_21_zen_30.0_I.txt" u 1:(512.0*$2) wi li notitle
 replot "LST_22_zen_30.0_I.txt" u 1:(512.0*$2) wi li notitle
 replot "LST_23_zen_30.0_I.txt" u 1:(512.0*$2) wi li notitle
+replot "SKA_Low_L1v12" u 1:2 wi li lt -1 lw 4 title "SKA specifications at zenith"
 
 set term postscript enhanced color solid
 set output "Low_sens_zenith30.ps"
